@@ -12,7 +12,7 @@ function inputChange() {
 }
 
 inputs.forEach(input => input.addEventListener("change", inputChange))
-inputs.forEach(input => input.addEventListener('mousemove', handleUpdate))
+inputs.forEach(input => input.addEventListener('mousemove', inputChange))
 
 
 
